@@ -1,0 +1,5442 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description />
+	<sections>
+		<section>
+			<name>For Logged out</name>
+			<description />
+			<sections>
+				<section>
+					<name>Header</name>
+					<description />
+					<sections>
+						<section>
+							<name>Logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Candidates link</name>
+							<description />
+						</section>
+						<section>
+							<name>Jobs link</name>
+							<description />
+						</section>
+						<section>
+							<name>[Sign In] button</name>
+							<description />
+						</section>
+						<section>
+							<name>[Sign Up] button</name>
+							<description />
+						</section>
+						<section>
+							<name>For companies page navigation</name>
+							<description />
+						</section>
+						<section>
+							<name>For engineers page navigation</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Engineers</name>
+					<description />
+					<cases>
+						<case>
+							<id>C8</id>
+							<title>For engineers Page is loaded by default for logged-out users</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Critical</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C22</id>
+							<title>Not logged-in user can navigate via the "Jobs" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C24</id>
+							<title>Not logged-in user can navigate via the "Web3 companies" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>"Let remote Web3 startups make you an offer" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Get started" block</name>
+									<description />
+									<cases>
+										<case>
+											<id>C16</id>
+											<title>The email registration form is displayed to unauthenticated users</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Critical</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>Sign up with Google icon</name>
+											<description />
+											<cases>
+												<case>
+													<id>C17</id>
+													<title>Not logged-in user can register via social media (Google)</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>High</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+										<section>
+											<name>Sign up with LinkedIn icon</name>
+											<description />
+											<cases>
+												<case>
+													<id>C19</id>
+													<title>Not logged-in user can register via social media (LinkedIn)</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>High</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+										<section>
+											<name>Sign up with GitHub icon</name>
+											<description />
+											<cases>
+												<case>
+													<id>C20</id>
+													<title>Not logged-in user can register via social media (GitHub)</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>High</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+										<section>
+											<name>"Email" field</name>
+											<description />
+											<cases>
+												<case>
+													<id>C21</id>
+													<title>Not logged-in user can register via email address</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>Critical</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Offer cards</name>
+							<description />
+							<sections>
+								<section>
+									<name>Clubhouse card</name>
+									<description />
+								</section>
+								<section>
+									<name>HealthRhythms card</name>
+									<description />
+								</section>
+								<section>
+									<name>CoinTracker card</name>
+									<description />
+								</section>
+								<section>
+									<name>Supernormal card</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"How it works" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"01. Create an anonymous profile" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"02. Receive connections &amp; chat with startups" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"03. Hunt offers &amp; earn pricey NFT as you're hired" step</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Get $1k bonus..." section</name>
+							<description />
+						</section>
+						<section>
+							<name>"Vacancies" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Layer3 Senior Web3 Full-Stack Wizard" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Q.xyz Smart Contract Developer" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Webb Web3 Engineer (TS, React)" card</name>
+									<description />
+								</section>
+								<section>
+									<name>" Dexible Lead Web3 Frontend Engineer" card</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Web2 → Web3 advantages" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Discover] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Reviews section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C29</id>
+									<title>The feedback block at the bottom of the page is displayed for a not logged-in user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+								<case>
+									<id>C35</id>
+									<title>10 real user feedback items are displayed in the feedback block for a not logged-in user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Footer</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Top 100 Web3 companies</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Coinbase logo</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Binance logo</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Near logo</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>GlobalId logo</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Consensys logo</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[View top 100]  button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Hire Web3 Developer</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Remote Web3 jobs</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Remote Web3 Salaries</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Hauntd logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>LinkedIn logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Facebook logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Twitter logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Instagram logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Telegram logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Signal logo</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"Terms of use" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"Cookies policy" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"Privacy policy" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"About us" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"FAQs" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>"Pricing' link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Top 100 Web3 companies Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Eyebrow &amp; Title</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Company grid</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Jobs Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>[Post a job] button</name>
+							<description />
+							<sections>
+								<section>
+									<name>Hover menu</name>
+									<description />
+									<cases>
+												</cases>
+									<sections>
+										<section>
+											<name>"Let's create a profile" modal</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[Top companies] button</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Jobs list</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Job list item</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Job details" expanded toggle</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[1-click apply] button</name>
+											<description />
+											<sections>
+												<section>
+													<name>"Let's create a profile" modal</name>
+													<description />
+													<cases>
+												</cases>
+													<sections>
+														<section>
+															<name>[Sign up] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>"Close" icon</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[View more] button</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Job Alerts Subscription Form</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Desired roles" multiselect dropdown</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Your experience" dropdown</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Desired annual salary" range handle slider</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Email" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Receive jobs] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Stack filter tabs</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>[Web3 salaries] button</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Average Salaries" section</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Candidates Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C53</id>
+							<title>Candidate list is displayed as cards with candidate info for a not logged-in user</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>High</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C57</id>
+							<title>Short description of candidate's skills and achievements is displayed on a candidate card for a not logged-in user</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C68</id>
+							<title>All candidates experiences are displayed upon clicking "Show experience" for a not logged-in user</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Filters for search</name>
+							<description />
+							<cases>
+								<case>
+									<id>C77</id>
+									<title>Filters section is displayed for an unauthorized user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+						<section>
+							<name>[Free sign up] button</name>
+							<description />
+							<cases>
+								<case>
+									<id>C80</id>
+									<title>The sign-up option is displayed by hovering over filters section when unauthorized</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>High</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+						<section>
+							<name>[Sign In] button</name>
+							<description />
+							<cases>
+								<case>
+									<id>C79</id>
+									<title>The sign-in option is displayed by hovering over filters section when unauthorized</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>High</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Companies</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hero section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C4</id>
+									<title>Product information for recruiters is displayed for not logged in user on the landing page</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>High</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Problem statement section</name>
+							<description />
+						</section>
+						<section>
+							<name>Founder story section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C6</id>
+									<title>CEO quotes block is displayed for not logged-in user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>High</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+						<section>
+							<name>Benefit cards</name>
+							<description />
+						</section>
+						<section>
+							<name>Comparison table section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C5</id>
+									<title>Comparison block with other resources is displayed for not logged-in user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire top engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Closing block</name>
+							<description />
+							<cases>
+								<case>
+									<id>C7</id>
+									<title>Partner logos block is displayed for not logged-in user</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire now] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Sign Up Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Title</name>
+							<description />
+						</section>
+						<section>
+							<name>Registration form</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>"Email" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Password" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Repeat password" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Create account] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign up with: Google API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign up with: LinkedIn API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign up with: GitHub API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Already have an account? Sign In" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Sign In Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Title</name>
+							<description />
+						</section>
+						<section>
+							<name>Login form</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>"Email" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Password" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Sign In] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Forgot password" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign in with: Google API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign in with: LinkedIn API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Sign in with: GitHub API</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Don't have an account? Sign up" link</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Choose Profile Page</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>"I AM candidate" option card</name>
+									<description />
+									<sections>
+										<section>
+											<name>Role filling step</name>
+											<description />
+											<sections>
+												<section>
+													<name>"Desired position" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Desired roles" multi-select dropdown</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Core technical skills" field</name>
+													<description />
+													<cases>
+												</cases>
+													<sections>
+														<section>
+															<name>"Select from 5 to 15 of your best tech skills" tooltip</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Expectations filling step</name>
+											<description />
+											<cases>
+												</cases>
+											<sections>
+												<section>
+													<name>"Desired base salary, $" switch toggle</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Don't put a super high number. Have in mind that startups offer decent equity" tooltip</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>Annual mode</name>
+															<description />
+														</section>
+														<section>
+															<name>Monthly mode</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Desired salary in $" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Job experience" dropdown</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"English level" dropdown</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Your location" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>'Employment options" checkboxes</name>
+													<description />
+												</section>
+												<section>
+													<name>Bio step</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Experience filing step</name>
+											<description />
+											<cases>
+												</cases>
+											<sections>
+												<section>
+													<name>[Upload from LinkedIn] button</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Link to my LinkedIn profile" field</name>
+															<description />
+														</section>
+														<section>
+															<name>"I grant permission to fetch and store my experience data to Huntd" checkbox</name>
+															<description />
+														</section>
+														<section>
+															<name>[Import experience] button</name>
+															<description />
+														</section>
+														<section>
+															<name>[Cancel] button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>[Add manually] button</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Add experience" form</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Role" field</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Company name" field</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Start date" date picker</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>"Month" dropdown</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>"Year" field</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+																<section>
+																	<name>"End date" switch toggle</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>"I'm working here" mode</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>"End date" mode</name>
+																			<description />
+																			<sections>
+																				<section>
+																					<name>"Month" dropdown</name>
+																					<description />
+																				</section>
+																				<section>
+																					<name>"Year" field</name>
+																					<description />
+																				</section>
+																			</sections>
+																		</section>
+																	</sections>
+																</section>
+																<section>
+																	<name>"Achievements" field</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Save] button</name>
+																	<description />
+																</section>
+																<section>
+																	<name>[Cancel] button</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Recycle bin" icon</name>
+																	<description />
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Bio step</name>
+											<description />
+											<sections>
+												<section>
+													<name>Achievements</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>Expectations</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>{Save and continue] button</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Contact information filling step</name>
+											<description />
+											<sections>
+												<section>
+													<name>Avatar switch toggle</name>
+													<description />
+													<sections>
+														<section>
+															<name>"NFT avatar" mode</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Choose NFt avatar" icon</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Wallet address to receive free NFT" field</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>Optional info tooltip</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+															</sections>
+														</section>
+														<section>
+															<name>"Usual avatar" mode</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Upload your photo" icon</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"First name" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Last name" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>[Attach CV] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"LinkedIn" URL field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Behance" URL field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"GitHub" URL field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>[Activate profile] button</name>
+													<description />
+												</section>
+												<section>
+													<name>[Preview profile] button</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Rated your experience of creating profile step</name>
+											<description />
+											<sections>
+												<section>
+													<name>Scale for rate</name>
+													<description />
+												</section>
+												<section>
+													<name>"How can we make the profile creation process better?" field</name>
+													<description />
+												</section>
+												<section>
+													<name>[Send] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"I AM recruiter" option card</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Company details" form</name>
+											<description />
+											<sections>
+												<section>
+													<name>"My role" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Company" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>[Save an continue] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Forgot Password Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Reset Password form</name>
+							<description />
+							<sections>
+								<section>
+									<name>Title</name>
+									<description />
+								</section>
+								<section>
+									<name>"Email" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Send code] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Sign In" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+			</sections>
+		</section>
+		<section>
+			<name>For registered as Companies</name>
+			<description />
+			<sections>
+				<section>
+					<name>Header</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hauntd logo</name>
+							<description />
+						</section>
+						<section>
+							<name>For Companies Page navigation</name>
+							<description />
+						</section>
+						<section>
+							<name>For Engineers Page navigation</name>
+							<description />
+						</section>
+						<section>
+							<name>"Candidates" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Jobs" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Chats" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Profile" dropdown icon</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Candidate tab</name>
+									<description />
+								</section>
+								<section>
+									<name>Recruiter tab</name>
+									<description />
+								</section>
+								<section>
+									<name>"Preview profile" link</name>
+									<description />
+								</section>
+								<section>
+									<name>"Edit profile" link</name>
+									<description />
+								</section>
+								<section>
+									<name>"Account settings" link</name>
+									<description />
+								</section>
+								<section>
+									<name>"Sign out" link</name>
+									<description />
+								</section>
+								<section>
+									<name>"Hiring management" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Footer</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Top 100 wev3 companies</name>
+							<description />
+							<sections>
+								<section>
+									<name>Coinbase logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Binance logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Near logo</name>
+									<description />
+								</section>
+								<section>
+									<name>GlobalId logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Consensys logo</name>
+									<description />
+								</section>
+								<section>
+									<name>[View top 100]  button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Hire Web3 Developer</name>
+							<description />
+						</section>
+						<section>
+							<name>Remote Web3 jobs</name>
+							<description />
+						</section>
+						<section>
+							<name>Remote Web3 Salaries</name>
+							<description />
+						</section>
+						<section>
+							<name>Hauntd logo</name>
+							<description />
+						</section>
+						<section>
+							<name>LinkedIn logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Facebook logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Twitter logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Instagram logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Telegram logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Signal logo</name>
+							<description />
+						</section>
+						<section>
+							<name>"Terms of use" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Cookies policy" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Privacy policy" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"About us" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"FAQs" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Pricing' link</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Companies</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hero section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C355</id>
+									<title>Product information for recruiters is displayed for recruiters on the landing page</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Critical</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Problem statement section</name>
+							<description />
+						</section>
+						<section>
+							<name>Founder story section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C360</id>
+									<title>CEO quotes block is displayed for recruiters</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+						<section>
+							<name>Benefit cards</name>
+							<description />
+						</section>
+						<section>
+							<name>Comparison table section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C358</id>
+									<title>Comparison block with other resources is displayed for recruiters</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire top engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Closing block</name>
+							<description />
+							<cases>
+								<case>
+									<id>C363</id>
+									<title>Partner logos block is displayed for recruiters</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire now] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Engineers</name>
+					<description />
+					<cases>
+						<case>
+							<id>C10</id>
+							<title>For engineers Page is loaded by default for recruiters</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Critical</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C30</id>
+							<title>Recruiter can navigate via the "Jobs" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C31</id>
+							<title>Recruiter can navigate via the "Web3 companies" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Hero section for downloading mobile app</name>
+							<description />
+							<cases>
+								<case>
+									<id>C25</id>
+									<title>The mobile app ad banner is displayed</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Download on the App Store] button</name>
+									<description />
+								</section>
+								<section>
+									<name>[Get in on Google play] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"How it works" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"01. Create an anonymous profile" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"02. Receive connections &amp; chat with startups" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"03. Hunt offers &amp; earn pricey NFT as you're hired" step</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Get $1k bonus..." section</name>
+							<description />
+						</section>
+						<section>
+							<name>"Vacancies" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Layer3 Senior Web3 Full-Stack Wizard" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Q.xyz Smart Contract Developer" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Webb Web3 Engineer (TS, React)" card</name>
+									<description />
+								</section>
+								<section>
+									<name>" Dexible Lead Web3 Frontend Engineer" card</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Web2 → Web3 advantages" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Discover] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Reviews section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C28</id>
+									<title>The feedback block at the bottom of the page is displayed for recruiters</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+								<case>
+									<id>C36</id>
+									<title>10 real user feedback items are displayed for recruiters in the feedback block</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Candidates Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C55</id>
+							<title>Candidate list is displayed for recruiters as cards with candidate info</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>High</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Filters block</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Role" multi-select dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C87</id>
+											<title>Recruiter can filter candidates by Role</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Technologies" multi-select dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C89</id>
+											<title>Recruiter can filter candidates by Technologies</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Desired base salary" segmented toggle</name>
+									<description />
+									<cases>
+										<case>
+											<id>C91</id>
+											<title>Recruiter can filter candidates by Desired base salary (monthly)</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+										<case>
+											<id>C92</id>
+											<title>Recruiter can filter candidates by Desired base salary (annual)</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"Salary range" dual-handle slider</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"English level" dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C93</id>
+											<title>Recruiter can filter candidates by English level</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Candidate's location" filter</name>
+									<description />
+									<sections>
+										<section>
+											<name>Mode segmented toggle</name>
+											<description />
+											<sections>
+												<section>
+													<name>Timezone mode</name>
+													<description />
+													<cases>
+														<case>
+															<id>C94</id>
+															<title>Recruiter can filter candidates by Location (Timezone)</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>High</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+													</cases>
+													<sections>
+														<section>
+															<name>"Show map" switch</name>
+															<description />
+														</section>
+														<section>
+															<name>"Timezone range" dual-handle slider</name>
+															<description />
+														</section>
+														<section>
+															<name>World visual map with vertical timezone bands</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Country\City mode</name>
+													<description />
+													<cases>
+														<case>
+															<id>C95</id>
+															<title>Recruiter can filter candidates by Location (Country/City)</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>High</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+													</cases>
+													<sections>
+														<section>
+															<name>"Select city or country" field</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>[Save filters &amp; subscribe] button</name>
+									<description />
+								</section>
+								<section>
+									<name>[Clear filters] button</name>
+									<description />
+								</section>
+								<section>
+									<name>"Saved filters" icon</name>
+									<description />
+								</section>
+								<section>
+									<name>"Job experience" dropdown</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Candidate card</name>
+							<description />
+							<cases>
+								<case>
+									<id>C59</id>
+									<title>Short description of candidate's skills and achievements is displayed for the recruiter on a candidate card</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+								<case>
+									<id>C75</id>
+									<title>The candidate profile opens in a new tab by clicking on the candidate card for recruiter</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>Position title</name>
+									<description />
+								</section>
+								<section>
+									<name>Summary line</name>
+									<description />
+									<sections>
+										<section>
+											<name>Location pin icon</name>
+											<description />
+										</section>
+										<section>
+											<name>Experience</name>
+											<description />
+										</section>
+										<section>
+											<name>Salary expectation</name>
+											<description />
+										</section>
+										<section>
+											<name>English level</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Core technical skills with tags</name>
+									<description />
+								</section>
+								<section>
+									<name>Achievements\Key results section</name>
+									<description />
+								</section>
+								<section>
+									<name>Considering roles with tags</name>
+									<description />
+								</section>
+								<section>
+									<name>[Start chat] button</name>
+									<description />
+									<cases>
+										<case>
+											<id>C106</id>
+											<title>Chat is initiated by recruiter from the candidate list</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Critical</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>Send connection request form</name>
+											<description />
+											<sections>
+												<section>
+													<name>Title form</name>
+													<description />
+												</section>
+												<section>
+													<name>"Message" field</name>
+													<description />
+												</section>
+												<section>
+													<name>"Add to templates" chekbox</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Add template title" field</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>[Send message] button</name>
+													<description />
+												</section>
+												<section>
+													<name>"Template list" icon</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"Show experience" chevron</name>
+									<description />
+									<cases>
+										<case>
+											<id>C65</id>
+											<title>All candidate's experiences are displayed for recruiter upon clicking "Show experience"</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"Hide experience" chevron</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[10 more] button</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Jobs Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Title row</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Top companies] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Post a job] button</name>
+									<description />
+									<sections>
+										<section>
+											<name>Hover menu</name>
+											<description />
+											<cases>
+												</cases>
+											<sections>
+												<section>
+													<name>"Add job manually" options</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Reach exclusive engineers" form</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Job details" field</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>"Contact information" field</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Post a job] button</name>
+																	<description />
+																	<cases>
+												</cases>
+																	<sections>
+																		<section>
+																			<name>Confirmation message</name>
+																			<description />
+																			<cases>
+												</cases>
+																		</section>
+																	</sections>
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Import jobs from ATS" action</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Greenhouse" ATS logo</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Greenhouse ATS ID" field</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Add jobs] button</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Back] button</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+															</sections>
+														</section>
+														<section>
+															<name>"Lever" ATS logo</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Lever ATS ID" field</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Add jobs] button</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+																<section>
+																	<name>[Back] button</name>
+																	<description />
+																	<cases>
+												</cases>
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Stack filter tabs</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>[Web3 salaries] button</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Average Salaries" section</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Jobs list</name>
+							<description />
+							<sections>
+								<section>
+									<name>Job list item</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Job details" expanded toggle</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[1-click apply] button</name>
+											<description />
+											<sections>
+												<section>
+													<name>[Create a candidate profile] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[View 20 more] button</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Job Alerts Subscription Form</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Desired roles" multiselect dropdown</name>
+									<description />
+								</section>
+								<section>
+									<name>"Your experience" dropdown</name>
+									<description />
+								</section>
+								<section>
+									<name>"Desired annual salary" range handle slider</name>
+									<description />
+								</section>
+								<section>
+									<name>[Receive jobs] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Chats Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C316</id>
+							<title>Recruiter can send a job offer in chat to a candidate</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Critical</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C324</id>
+							<title>Recruiter can mark chat as rejected</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C331</id>
+							<title>Recruiter can mark chat as archived</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C334</id>
+							<title>Recruiter can mark chat as favourited</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Conversation list</name>
+							<description />
+							<sections>
+								<section>
+									<name>Tab All</name>
+									<description />
+									<sections>
+										<section>
+											<name>Conversation item</name>
+											<description />
+											<sections>
+												<section>
+													<name>Kebab menu for actions</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Archive" action</name>
+															<description />
+														</section>
+														<section>
+															<name>"Delete" action</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Chat header</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Profile" link</name>
+															<description />
+														</section>
+														<section>
+															<name>Hover Kebab menu for status</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Hire candidate" action</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>[Confirm] button</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>[Cancel] button</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+																<section>
+																	<name>"Reject candidate" action</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>[Confirm] button</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>[Cancel] button</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Message thread</name>
+													<description />
+												</section>
+												<section>
+													<name>"Type a message..." field</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Send arrow" button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Tab Archive</name>
+									<description />
+									<sections>
+										<section>
+											<name>Conversation item</name>
+											<description />
+											<sections>
+												<section>
+													<name>Kebab menu for actions</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Unarchive" action</name>
+															<description />
+														</section>
+														<section>
+															<name>"Delete" action</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Chat header</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Profile" link</name>
+															<description />
+														</section>
+														<section>
+															<name>Hover Kebab menu for status</name>
+															<description />
+															<sections>
+																<section>
+																	<name>"Hire candidate" action</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>[Confirm] button</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>[Cancel] button</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+																<section>
+																	<name>"Reject candidate" action</name>
+																	<description />
+																	<sections>
+																		<section>
+																			<name>[Confirm] button</name>
+																			<description />
+																		</section>
+																		<section>
+																			<name>[Cancel] button</name>
+																			<description />
+																		</section>
+																	</sections>
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Message thread</name>
+													<description />
+												</section>
+												<section>
+													<name>"Type a message..." field</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Send arrow" button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Top 100 Web3 companies Page</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Eyebrow &amp; Title</name>
+							<description />
+						</section>
+						<section>
+							<name>Company grid</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Preview Profile Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Profile hero</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Full Name</name>
+									<description />
+								</section>
+								<section>
+									<name>Company line (position | company name)</name>
+									<description />
+								</section>
+								<section>
+									<name>Profile Status</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Edit profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Deactivate profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Activate profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Opened jobs section</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Contacts panel</name>
+							<description />
+							<sections>
+								<section>
+									<name>Clickable email</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Edit Profile Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Company details tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>"My role" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Company" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Save changes] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Cancel] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Contacts tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Upload your photo" icon</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Wallet address to receive free NFT" field</name>
+									<description />
+									<cases>
+												</cases>
+									<sections>
+										<section>
+											<name>Optional info tooltip</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"First name'' field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Last name" field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"LinkedIn" URL field</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Save changes] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Cancel] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Hiring Management Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hirings tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Search engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Connections tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>Pending row</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Chat" icon</name>
+											<description />
+										</section>
+										<section>
+											<name>[Rejected] button</name>
+											<description />
+										</section>
+										<section>
+											<name>[Hired] button</name>
+											<description />
+										</section>
+										<section>
+											<name>[In progress] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Subscriptions tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>My subscription card</name>
+									<description />
+									<sections>
+										<section>
+											<name>[View candidate] button</name>
+											<description />
+										</section>
+										<section>
+											<name>[Unsubscribe] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Message templates tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>Templates table</name>
+									<description />
+									<sections>
+										<section>
+											<name>Template form</name>
+											<description />
+											<sections>
+												<section>
+													<name>"Template title" field</name>
+													<description />
+												</section>
+												<section>
+													<name>"Message" field</name>
+													<description />
+												</section>
+												<section>
+													<name>[Save] button</name>
+													<description />
+												</section>
+												<section>
+													<name>[Cancel] button</name>
+													<description />
+												</section>
+												<section>
+													<name>"Delete template" icon</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"New template" icon</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Profile Settings Page</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Social profiles tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>Tab title</name>
+									<description />
+								</section>
+								<section>
+									<name>Provider list</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Sign in with LINKEDIN" row</name>
+											<description />
+											<sections>
+												<section>
+													<name>[Connect] button</name>
+													<description />
+												</section>
+												<section>
+													<name>[Disconnect] button</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>"Sign in with GITHUB" row</name>
+											<description />
+											<sections>
+												<section>
+													<name>[Connect] button</name>
+													<description />
+												</section>
+												<section>
+													<name>[Disconnect] button</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>"Sign in with GOOGLE" row</name>
+											<description />
+											<sections>
+												<section>
+													<name>[Connect] button</name>
+													<description />
+												</section>
+												<section>
+													<name>[Disconnect] button</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Change password tab</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Change password] button</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Current password" field</name>
+											<description />
+										</section>
+										<section>
+											<name>"New password" field</name>
+											<description />
+										</section>
+										<section>
+											<name>"Repeat new password" field</name>
+											<description />
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Candidate Profile Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C113</id>
+							<title>Full candidate information is displayed for recruiters</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Profile Review Page</name>
+							<description />
+							<sections>
+								<section>
+									<name>Profile hero</name>
+									<description />
+									<sections>
+										<section>
+											<name>Position title</name>
+											<description />
+										</section>
+										<section>
+											<name>Summary line</name>
+											<description />
+										</section>
+										<section>
+											<name>[Send message] button</name>
+											<description />
+											<cases>
+												<case>
+													<id>C151</id>
+													<title>Chat is initiated by recruiter from the candidate profile page</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>Critical</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Profile details</name>
+									<description />
+									<sections>
+										<section>
+											<name>Achievements / Key results</name>
+											<description />
+										</section>
+										<section>
+											<name>Core technical skills</name>
+											<description />
+										</section>
+										<section>
+											<name>Job expectations</name>
+											<description />
+										</section>
+										<section>
+											<name>Considering roles</name>
+											<description />
+										</section>
+										<section>
+											<name>Ready to work</name>
+											<description />
+										</section>
+										<section>
+											<name>Experience</name>
+											<description />
+											<cases>
+												<case>
+													<id>C134</id>
+													<title>Candidate experience is displayed for recruiters, sorted chronologically from oldest to newest positions</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>Medium</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Contacts panel</name>
+									<description />
+									<cases>
+										<case>
+											<id>C127</id>
+											<title>Candidate contacts are hidden from the recruiter before the candidate opens it</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Critical</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"CV and contacts are hidden..." notice</name>
+											<description>&lt;p&gt;&lt;span style="color: rgb(71, 74, 75); font-family: Inter, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.48px; orphans: 2; text-align: center; text-indent: 0px; text-transform: uppercase; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none" data-pasted="true"&gt;CV and contacts are hidden. To make them visible, send a message to the candidate&lt;/span&gt;&lt;/p&gt;</description>
+										</section>
+										<section>
+											<name>Full Name</name>
+											<description />
+										</section>
+										<section>
+											<name>Email</name>
+											<description />
+										</section>
+										<section>
+											<name>Public profile URL</name>
+											<description />
+										</section>
+										<section>
+											<name>[Copy link profile] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+			</sections>
+		</section>
+		<section>
+			<name>For registered as Engineers</name>
+			<description />
+			<sections>
+				<section>
+					<name>Header</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hauntd logo</name>
+							<description />
+						</section>
+						<section>
+							<name>For Companies Page navigation</name>
+							<description />
+						</section>
+						<section>
+							<name>For Engineers Page navigation</name>
+							<description />
+						</section>
+						<section>
+							<name>"Candidates" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Jobs" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Chats" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Profile" dropdown icon</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Candidate tab</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Recruiter tab</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Preview profile" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Edit profile" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Account settings" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>"Sign out" link</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Footer</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Top 100 wev3 companies</name>
+							<description />
+							<sections>
+								<section>
+									<name>Coinbase logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Binance logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Near logo</name>
+									<description />
+								</section>
+								<section>
+									<name>GlobalId logo</name>
+									<description />
+								</section>
+								<section>
+									<name>Consensys logo</name>
+									<description />
+								</section>
+								<section>
+									<name>[View top 100]  button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Hire Web3 Developer</name>
+							<description />
+						</section>
+						<section>
+							<name>Remote Web3 jobs</name>
+							<description />
+						</section>
+						<section>
+							<name>Remote Web3 Salaries</name>
+							<description />
+						</section>
+						<section>
+							<name>Hauntd logo</name>
+							<description />
+						</section>
+						<section>
+							<name>LinkedIn logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Facebook logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Twitter logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Instagram logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Telegram logo</name>
+							<description />
+						</section>
+						<section>
+							<name>Signal logo</name>
+							<description />
+						</section>
+						<section>
+							<name>"Terms of use" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Cookies policy" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Privacy policy" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"About us" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"FAQs" link</name>
+							<description />
+						</section>
+						<section>
+							<name>"Pricing' link</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Companies</name>
+					<description />
+					<sections>
+						<section>
+							<name>Hero section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C356</id>
+									<title>Product information for recruiters is displayed for candidate on the landing page</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Critical</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Problem statement section</name>
+							<description />
+						</section>
+						<section>
+							<name>Founder story section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C361</id>
+									<title>CEO quotes block is displayed for candidates</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>High</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+						<section>
+							<name>Benefit cards</name>
+							<description />
+						</section>
+						<section>
+							<name>Comparison table section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C359</id>
+									<title>Comparison block with other resources is displayed for candidates</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>[Hire top engineers] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Closing block</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Hire now] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Main Page for Engineers</name>
+					<description />
+					<cases>
+						<case>
+							<id>C11</id>
+							<title>For engineers Page is loaded by default for candidates</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>High</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C32</id>
+							<title>Candidate can navigate via the "Jobs" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C26</id>
+							<title>The mobile app ad banner is displayed for candidates on the Main Page</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C33</id>
+							<title>Candidate can navigate via the "Web3 companies" link</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Hero section for downloading mobile app</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Download on the App Store] button</name>
+									<description />
+								</section>
+								<section>
+									<name>[Get in on Google play] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"How it works" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"01. Create an anonymous profile" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"02. Receive connections &amp; chat with startups" step</name>
+									<description />
+								</section>
+								<section>
+									<name>"03. Hunt offers &amp; earn pricey NFT as you're hired" step</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Get $1k bonus..." section</name>
+							<description />
+						</section>
+						<section>
+							<name>"Vacancies" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Layer3 Senior Web3 Full-Stack Wizard" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Q.xyz Smart Contract Developer" card</name>
+									<description />
+								</section>
+								<section>
+									<name>"Webb Web3 Engineer (TS, React)" card</name>
+									<description />
+								</section>
+								<section>
+									<name>" Dexible Lead Web3 Frontend Engineer" card</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>"Web2 → Web3 advantages" section</name>
+							<description />
+							<sections>
+								<section>
+									<name>[Discover] button</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Reviews section</name>
+							<description />
+							<cases>
+								<case>
+									<id>C27</id>
+									<title>The feedback block at the bottom of the page is displayed for the candidates</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+								<case>
+									<id>C37</id>
+									<title>10 real user feedback items are displayed for candidate in the feedback block</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Candidates Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C56</id>
+							<title>Candidate list is displayed for candidates  as cards with candidate info</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>High</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Filters block</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Role" multi-select dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C96</id>
+											<title>Candidate can filter candidates by Role</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Technologies" multi-select dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C97</id>
+											<title>Candidate can filter candidates by Technologies</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Desired base salary" segmented toggle</name>
+									<description />
+									<cases>
+										<case>
+											<id>C99</id>
+											<title>Candidate can filter candidates by Desired base salary (annual)</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+										<case>
+											<id>C100</id>
+											<title>Candidate can filter candidates by Desired base salary (monthly)</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"Salary range" dual-handle slider</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"English level" dropdown</name>
+									<description />
+									<cases>
+										<case>
+											<id>C101</id>
+											<title>Candidate can filter candidates by English level</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+								</section>
+								<section>
+									<name>"Candidate's location" filter</name>
+									<description />
+									<sections>
+										<section>
+											<name>Mode segmented toggle</name>
+											<description />
+											<sections>
+												<section>
+													<name>Timezone mode</name>
+													<description />
+													<cases>
+														<case>
+															<id>C103</id>
+															<title>Candidate can filter candidates by Location (Timezone)</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>Medium</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+													</cases>
+													<sections>
+														<section>
+															<name>"Show map" switch</name>
+															<description />
+														</section>
+														<section>
+															<name>"Timezone range" dual-handle slider</name>
+															<description />
+														</section>
+														<section>
+															<name>World visual map with vertical timezone bands</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Country\City mode</name>
+													<description />
+													<cases>
+														<case>
+															<id>C104</id>
+															<title>Candidate can filter candidates by Location (Country/City)</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>Medium</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+													</cases>
+													<sections>
+														<section>
+															<name>"Select city or country" field</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>[Save filters &amp; subscribe] button</name>
+									<description />
+								</section>
+								<section>
+									<name>[Clear filters] button</name>
+									<description />
+								</section>
+								<section>
+									<name>"Saved filters" icon</name>
+									<description />
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Candidate card</name>
+							<description />
+							<cases>
+								<case>
+									<id>C61</id>
+									<title>Short description of candidate's skills and achievements is displayed for candidate on a candidate card</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+								<case>
+									<id>C76</id>
+									<title>The candidate profile opens in a new tab by click candidates  on the candidate card</title>
+									<template>Test Case (Text)</template>
+									<type>Other</type>
+									<priority>Medium</priority>
+									<assignedto>Yehor Oliinyk</assignedto>
+									<estimate />
+									<references />
+									<automation>No automation attached</automation>
+									<custom>
+										<automation_type>
+											<id>0</id>
+											<value> None</value>
+										</automation_type>
+										<is_automated>false</is_automated>
+									</custom>
+									<is_converted>1</is_converted>
+								</case>
+							</cases>
+							<sections>
+								<section>
+									<name>Position title</name>
+									<description />
+								</section>
+								<section>
+									<name>Summary line</name>
+									<description />
+									<sections>
+										<section>
+											<name>Location pin icon</name>
+											<description />
+										</section>
+										<section>
+											<name>Experience</name>
+											<description />
+										</section>
+										<section>
+											<name>Salary expectation</name>
+											<description />
+										</section>
+										<section>
+											<name>English level</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Core technical skills with tags</name>
+									<description />
+								</section>
+								<section>
+									<name>Achievements\Key results section</name>
+									<description />
+								</section>
+								<section>
+									<name>Considering roles with tags</name>
+									<description />
+								</section>
+								<section>
+									<name>[Start chat] button</name>
+									<description />
+									<cases>
+										<case>
+											<id>C108</id>
+											<title>Candidate has been notified that need to create a recruiter profile to start chat with candidates</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>High</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>[Create recruiter profile] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>"Show experience" chevron</name>
+									<description />
+									<cases>
+										<case>
+											<id>C64</id>
+											<title>All candidate's experiences are displayed for candidate upon clicking "Show experience"</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Medium</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"Hide experience" chevron</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[10 more] button</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Jobs Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Title row</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>[Top companies] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Stack filter tabs</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>[Web3 salaries] button</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Average Salaries" section</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Jobs list</name>
+							<description />
+							<sections>
+								<section>
+									<name>Job list item</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Job details" expanded toggle</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[1-click apply] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>[View 20 more] button</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Job Alerts Subscription Form</name>
+							<description />
+							<sections>
+								<section>
+									<name>"Desired roles" multiselect dropdown</name>
+									<description />
+								</section>
+								<section>
+									<name>"Your experience" dropdown</name>
+									<description />
+								</section>
+								<section>
+									<name>"Desired annual salary" range handle slider</name>
+									<description />
+								</section>
+								<section>
+									<name>[Receive jobs] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Top 100 Web3 companies Page</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Eyebrow &amp; Title</name>
+							<description />
+						</section>
+						<section>
+							<name>Company grid</name>
+							<description />
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Chats Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C337</id>
+							<title>Candidate can mark chat as archived</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+						<case>
+							<id>C338</id>
+							<title>Candidate can mark chat as favourited</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Conversation list panel</name>
+							<description />
+							<sections>
+								<section>
+									<name>Tab All</name>
+									<description />
+									<sections>
+										<section>
+											<name>Conversation item</name>
+											<description />
+											<sections>
+												<section>
+													<name>Chat header</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Recruiter" profile link</name>
+															<description />
+														</section>
+														<section>
+															<name>"My contacts hidden" icob</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Message thread</name>
+													<description />
+												</section>
+												<section>
+													<name>Quick-reply actions</name>
+													<description />
+													<cases>
+														<case>
+															<id>C282</id>
+															<title>Candidate contacts can be shared upon accepting the recruiter's proposition</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>Critical</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+														<case>
+															<id>C284</id>
+															<title>Recruiter's proposition can be declined by candidate without sharing contact details</title>
+															<template>Test Case (Text)</template>
+															<type>Other</type>
+															<priority>Critical</priority>
+															<assignedto>Yehor Oliinyk</assignedto>
+															<estimate />
+															<references />
+															<automation>No automation attached</automation>
+															<custom>
+																<automation_type>
+																	<id>0</id>
+																	<value> None</value>
+																</automation_type>
+																<is_automated>false</is_automated>
+															</custom>
+															<is_converted>1</is_converted>
+														</case>
+													</cases>
+													<sections>
+														<section>
+															<name>[Interested] button</name>
+															<description />
+														</section>
+														<section>
+															<name>[Not interested] button</name>
+															<description />
+														</section>
+														<section>
+															<name>[Share my contacts &amp; CV] button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Type a message..." field</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Send arrow" button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>Kebab menu for actions</name>
+													<description />
+													<sections>
+														<section>
+															<name>"Archive" action</name>
+															<description />
+														</section>
+														<section>
+															<name>"Delete" action</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Tab Archive</name>
+									<description />
+									<sections>
+										<section>
+											<name>Chat area</name>
+											<description />
+											<sections>
+												<section>
+													<name>Empty-state heading</name>
+													<description />
+												</section>
+												<section>
+													<name>Empty-state text</name>
+													<description />
+												</section>
+												<section>
+													<name>Huntd App promo</name>
+													<description />
+													<sections>
+														<section>
+															<name>[Download on the app Store] button</name>
+															<description />
+														</section>
+														<section>
+															<name>[Get it on Google Play] button</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Conversation item</name>
+											<description />
+											<sections>
+												<section>
+													<name>Kebab menu for actions</name>
+													<description />
+													<sections>
+														<section>
+															<name>Unarchive action</name>
+															<description />
+														</section>
+														<section>
+															<name>Delete action</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Preview Profile Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Profile hero</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Position title</name>
+									<description />
+								</section>
+								<section>
+									<name>Summary line</name>
+									<description />
+								</section>
+								<section>
+									<name>Status indicator panel</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Edit profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Deactivate profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>[Activate profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Profile details</name>
+							<description />
+							<cases>
+												</cases>
+							<sections>
+								<section>
+									<name>Achievements / Key results</name>
+									<description />
+								</section>
+								<section>
+									<name>Core technical skills</name>
+									<description />
+								</section>
+								<section>
+									<name>Job expectations</name>
+									<description />
+								</section>
+								<section>
+									<name>Considering roles</name>
+									<description />
+								</section>
+								<section>
+									<name>Ready to work</name>
+									<description />
+								</section>
+								<section>
+									<name>Experience</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+						<section>
+							<name>Contacts panel</name>
+							<description />
+							<sections>
+								<section>
+									<name>"contacts are hidden from companies" notice</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+								<section>
+									<name>Full Name</name>
+									<description />
+								</section>
+								<section>
+									<name>Email</name>
+									<description />
+								</section>
+								<section>
+									<name>Public profile URL</name>
+									<description />
+								</section>
+								<section>
+									<name>[Copy link profile] button</name>
+									<description />
+									<cases>
+												</cases>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Edit Profile Page</name>
+					<description />
+					<sections>
+						<section>
+							<name>Page title</name>
+							<description />
+						</section>
+						<section>
+							<name>[Preview profile] button</name>
+							<description />
+							<cases>
+												</cases>
+						</section>
+						<section>
+							<name>Navigation tabs</name>
+							<description />
+							<sections>
+								<section>
+									<name>Role tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Desired position" field</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"Desired roles" multiselect dropdown</name>
+											<description />
+										</section>
+										<section>
+											<name>"Core technical skills" multiselect dropdown</name>
+											<description />
+											<cases>
+												</cases>
+											<sections>
+												<section>
+													<name>"Select from 5 to 15..." tooltip</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Expectations tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Huntd specializes only on Full-time jobs" notice</name>
+											<description />
+										</section>
+										<section>
+											<name>"Desired base salary, $" segmented toggle</name>
+											<description />
+											<cases>
+												</cases>
+											<sections>
+												<section>
+													<name>"Don't put a super high number. Have in..." tooltip</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>"Desired base salary, $" field</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"Job experience" dropdown</name>
+											<description />
+										</section>
+										<section>
+											<name>"English level' dropdown</name>
+											<description />
+										</section>
+										<section>
+											<name>"Your location" field</name>
+											<description />
+										</section>
+										<section>
+											<name>"Employment options" checkboxes</name>
+											<description />
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Experience tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>Privacy notice</name>
+											<description />
+										</section>
+										<section>
+											<name>"Job experience'' section</name>
+											<description />
+											<sections>
+												<section>
+													<name>"+ add" link</name>
+													<description />
+													<cases>
+												</cases>
+													<sections>
+														<section>
+															<name>"Role" field</name>
+															<description />
+														</section>
+														<section>
+															<name>"Company name" field</name>
+															<description />
+														</section>
+														<section>
+															<name>"Start date" date picker</name>
+															<description />
+														</section>
+														<section>
+															<name>"End date" toggle</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>"End date" date picker</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>"Achievements" field</name>
+															<description />
+														</section>
+														<section>
+															<name>[Save] button</name>
+															<description />
+														</section>
+														<section>
+															<name>[Cancel] button</name>
+															<description />
+														</section>
+														<section>
+															<name>"Recycle bin" icon</name>
+															<description />
+														</section>
+														<section>
+															<name>"- cancel" link</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Reload" link</name>
+													<description />
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>Experience list</name>
+											<description />
+											<sections>
+												<section>
+													<name>Experience card</name>
+													<description />
+													<sections>
+														<section>
+															<name>Role</name>
+															<description />
+														</section>
+														<section>
+															<name>Company name</name>
+															<description />
+														</section>
+														<section>
+															<name>Start date</name>
+															<description />
+														</section>
+														<section>
+															<name>End date toggle</name>
+															<description />
+														</section>
+														<section>
+															<name>Achievements</name>
+															<description />
+														</section>
+														<section>
+															<name>"Edit card" icon</name>
+															<description />
+															<cases>
+												</cases>
+															<sections>
+																<section>
+																	<name>"Role" field</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Company name" field</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Start date" date picker</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"End date" toggle</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"End date" date picker</name>
+																	<description />
+																</section>
+																<section>
+																	<name>"Achievements" field</name>
+																	<description />
+																</section>
+																<section>
+																	<name>[Save] button</name>
+																	<description />
+																</section>
+																<section>
+																	<name>[Cancel] button</name>
+																	<description />
+																</section>
+															</sections>
+														</section>
+														<section>
+															<name>"Recycle bin" icon</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>LinkedIn sync</name>
+											<description />
+											<sections>
+												<section>
+													<name>[Fetch] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Contacts tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>Avatar toggle</name>
+											<description />
+											<sections>
+												<section>
+													<name>"NFT Avatar" mode</name>
+													<description />
+													<cases>
+												</cases>
+													<sections>
+														<section>
+															<name>"Choose NFT avatar" icon</name>
+															<description />
+														</section>
+														<section>
+															<name>"Wallet address to receive free NFT" field</name>
+															<description />
+															<sections>
+																<section>
+																	<name>Optional Info tooltip</name>
+																	<description />
+																</section>
+															</sections>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Usual avatar" mode</name>
+													<description />
+													<cases>
+												</cases>
+													<sections>
+														<section>
+															<name>"Avatar" icon</name>
+															<description />
+														</section>
+														<section>
+															<name>"Upload your photo" icon</name>
+															<description />
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+										<section>
+											<name>"First name" field</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"Last name" field</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Attach CV] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"LinkedIn" field for URL</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"Behance" field for URL</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>"GitHub" field for URL</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+											<cases>
+												</cases>
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Bio</name>
+									<description />
+									<sections>
+										<section>
+											<name>"Hints" section</name>
+											<description />
+										</section>
+										<section>
+											<name>"Achievements / Key results" field</name>
+											<description />
+										</section>
+										<section>
+											<name>"Expectations from work (optional)" field</name>
+											<description />
+										</section>
+										<section>
+											<name>[Save changes] button</name>
+											<description />
+										</section>
+										<section>
+											<name>[Cancel] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Profile Settings Page</name>
+					<description />
+					<cases>
+												</cases>
+					<sections>
+						<section>
+							<name>Settings tabs</name>
+							<description />
+							<sections>
+								<section>
+									<name>Social Profiles tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>Tab title</name>
+											<description />
+										</section>
+										<section>
+											<name>Provider list</name>
+											<description />
+											<sections>
+												<section>
+													<name>"Sign in with LINKEDIN" row</name>
+													<description />
+													<sections>
+														<section>
+															<name>[Connect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>[Disconnect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Sign in with GITHUB" row</name>
+													<description />
+													<sections>
+														<section>
+															<name>[Connect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>[Disconnect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+												<section>
+													<name>"Sign in with GOOGLE" row</name>
+													<description />
+													<sections>
+														<section>
+															<name>[Connect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+														<section>
+															<name>[Disconnect] button</name>
+															<description />
+															<cases>
+												</cases>
+														</section>
+													</sections>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Change password tab</name>
+									<description />
+									<sections>
+										<section>
+											<name>Tab title</name>
+											<description />
+										</section>
+										<section>
+											<name>[Change password] button</name>
+											<description />
+											<sections>
+												<section>
+													<name>"Current password" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"New password" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>"Repeat new password" field</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>[Save changes] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+												<section>
+													<name>[Cancel] button</name>
+													<description />
+													<cases>
+												</cases>
+												</section>
+											</sections>
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+				<section>
+					<name>Candidate Profile Page</name>
+					<description />
+					<cases>
+						<case>
+							<id>C121</id>
+							<title>Full candidate information is displayed for another candidate</title>
+							<template>Test Case (Text)</template>
+							<type>Other</type>
+							<priority>Medium</priority>
+							<assignedto>Yehor Oliinyk</assignedto>
+							<estimate />
+							<references />
+							<automation>No automation attached</automation>
+							<custom>
+								<automation_type>
+									<id>0</id>
+									<value> None</value>
+								</automation_type>
+								<is_automated>false</is_automated>
+							</custom>
+							<is_converted>1</is_converted>
+						</case>
+					</cases>
+					<sections>
+						<section>
+							<name>Profile Review Page</name>
+							<description />
+							<sections>
+								<section>
+									<name>Profile hero</name>
+									<description />
+									<sections>
+										<section>
+											<name>Position title</name>
+											<description />
+										</section>
+										<section>
+											<name>Summary line</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Profile details</name>
+									<description />
+									<sections>
+										<section>
+											<name>Achievements / Key results</name>
+											<description />
+										</section>
+										<section>
+											<name>Core technical skills</name>
+											<description />
+										</section>
+										<section>
+											<name>Job expectations</name>
+											<description />
+										</section>
+										<section>
+											<name>Considering roles</name>
+											<description />
+										</section>
+										<section>
+											<name>Ready to work</name>
+											<description />
+										</section>
+										<section>
+											<name>Experience</name>
+											<description />
+											<cases>
+												<case>
+													<id>C135</id>
+													<title>Candidate experience is displayed for other candidates, sorted chronologically from oldest to newest positions</title>
+													<template>Test Case (Text)</template>
+													<type>Other</type>
+													<priority>Medium</priority>
+													<assignedto>Yehor Oliinyk</assignedto>
+													<estimate />
+													<references />
+													<automation>No automation attached</automation>
+													<custom>
+														<automation_type>
+															<id>0</id>
+															<value> None</value>
+														</automation_type>
+														<is_automated>false</is_automated>
+													</custom>
+													<is_converted>1</is_converted>
+												</case>
+											</cases>
+										</section>
+									</sections>
+								</section>
+								<section>
+									<name>Contacts panel</name>
+									<description />
+									<cases>
+										<case>
+											<id>C128</id>
+											<title>Candidate contacts are hidden from the other candidates</title>
+											<template>Test Case (Text)</template>
+											<type>Other</type>
+											<priority>Critical</priority>
+											<assignedto>Yehor Oliinyk</assignedto>
+											<estimate />
+											<references />
+											<automation>No automation attached</automation>
+											<custom>
+												<automation_type>
+													<id>0</id>
+													<value> None</value>
+												</automation_type>
+												<is_automated>false</is_automated>
+											</custom>
+											<is_converted>1</is_converted>
+										</case>
+									</cases>
+									<sections>
+										<section>
+											<name>"CV and contacts are hidden..." notice</name>
+											<description />
+										</section>
+										<section>
+											<name>Full Name</name>
+											<description />
+										</section>
+										<section>
+											<name>Email</name>
+											<description />
+										</section>
+										<section>
+											<name>Public profile URL</name>
+											<description />
+										</section>
+										<section>
+											<name>[Copy link profile] button</name>
+											<description />
+										</section>
+									</sections>
+								</section>
+							</sections>
+						</section>
+					</sections>
+				</section>
+			</sections>
+		</section>
+	</sections>
+</suite>

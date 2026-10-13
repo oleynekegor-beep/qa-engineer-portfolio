@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S6</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Logged out user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;User Profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article information (title and description)</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign In page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C170</id>
+				<title>The user is redirected to the personal account Page when they try to open the Sign In Page via a direct link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Sign In” form</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C47</id>
+				<title>User can sign in with valid username and password values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references>CON-6</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p data-pasted=&quot;true&quot;&gt;-Registered user with a username exists&lt;/p&gt;&lt;p&gt;-User is logged out&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</preconds>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Open the Sign In page&lt;/p&gt;&lt;p&gt;2. Enter a valid registered username in &quot;Email&quot; field&lt;/p&gt;&lt;p&gt;3. Enter a valid password in &quot;Password&quot; field&lt;/p&gt;&lt;p&gt;4. Click [Sign In]&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is successfully logged in and redirected to the personal Main page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C46</id>
+				<title>User can sign in with valid email and password values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references>CON-6</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;-Registered user exists&lt;/p&gt;&lt;p&gt;-User is logged out&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open the Sign In page&lt;br data-pasted=&quot;true&quot;&gt;2. Enter a valid registered email in &quot;Email&quot; field&lt;br&gt;3. Enter a valid password in &quot;Password&quot; field&lt;br&gt;4. Click [Sign In]&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is successfully logged in and redirected to the Main page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C148</id>
+				<title>User can sign in with valid username and password values after pressing Enter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C162</id>
+				<title>User cannot sign in when providing an invalid password for a valid username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C163</id>
+				<title>User cannot sign in when providing an invalid password for a valid email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Email or Username” field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C149</id>
+				<title>User cannot sign in with an empty &quot;Email&quot; or &quot;Username&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C150</id>
+				<title>User can sign in with a valid username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C151</id>
+				<title>User can sign in with a valid email address</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C152</id>
+				<title>The placeholder &quot;Enter your username or email&quot; is displayed when the field is empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C153</id>
+				<title>User can sign in with a username entered in lowercase</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C154</id>
+				<title>User can sign in with a username entered in uppercase</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C155</id>
+				<title>User can sign in with an email entered in lowercase</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C164</id>
+				<title>The error message &quot;Email or Username: can’t be blank&quot; is displayed directly under the field when leaving the &quot;Email or Username&quot; field empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C156</id>
+				<title>User can sign in with an email entered in uppercase</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C166</id>
+				<title>The error message &quot;User with such email or username not registered.&quot; is displayed when submitting an unregistered username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C167</id>
+				<title>The error message &quot;User with such email or username not registered.&quot; is displayed when submitting an unregistered email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Password” field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C157</id>
+				<title>User cannot sign in with an empty &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C158</id>
+				<title>The data entered in the &quot;Password&quot; field must be masked with asterisks as it is being typed</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C159</id>
+				<title>User cannot copy data from the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C160</id>
+				<title>User cannot cut data from the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C161</id>
+				<title>User can paste data into the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C165</id>
+				<title>The error message &quot;Password: can’t be blank&quot; is displayed directly under the field when leaving the &quot;Password&quot; field empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C168</id>
+				<title>The error message &quot;Entered Invalid password! Check your keyboard layout or Caps Lock. Send a one-time password to your email?&quot; is displayed when enter an incorrect password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C169</id>
+				<title>User is redirected to the Forgot Password Page after clicking the &quot;Send one-time password&quot; link inside the error message</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign in] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C147</id>
+				<title>User can sign in with a valid username and password values after clicking [Sign in]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>“Need an account?” link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C145</id>
+				<title>User can navigate to the Sign Up Page by clicking the &quot;Need an account?&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Forgot the password?&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C146</id>
+				<title>User can navigate to the Forgot password Page by clicking the &quot;Forgot the password?&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign Up page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C75</id>
+				<title>User can register by filling out all the required fields and clicking [Sign Up]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C76</id>
+				<title>User can register by filling out all the required fields and pressing Enter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C77</id>
+				<title>User can receive an email with a 6-digit verification code upon submitting valid credentials</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C78</id>
+				<title>User can be automatically redirected to the Finish Registration Page after successful registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C80</id>
+				<title>User cannot register when credentials conflict with an existing account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C81</id>
+				<title>User cannot be redirected to the Finish Registration Page if a credential conflict occurs</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Sign up” form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Username” field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C94</id>
+				<title>User can register with a 3-character username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C95</id>
+				<title>User can register with a 15-character username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C96</id>
+				<title>User can register with a 40-character username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C97</id>
+				<title>User can register with a username containing only Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C98</id>
+				<title>User can register with a username containing a combination of Latin letters and digits</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C92</id>
+				<title>User can register with a username treated as case-insensitive (e.g., &quot;John&quot; conflicts with &quot;john&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C83</id>
+				<title>User cannot register with an empty &quot;Username&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C84</id>
+				<title>User cannot register with an already taken username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C85</id>
+				<title>User cannot register with a 2-character username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C86</id>
+				<title>User cannot register with a 41-character username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C87</id>
+				<title>User cannot register with a username starting with a digit</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C88</id>
+				<title>User cannot register with a username starting with a special symbol</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C89</id>
+				<title>User cannot register with a username containing a special symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C90</id>
+				<title>User cannot register with a username containing non-printing symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C91</id>
+				<title>User cannot register with a username containing non-Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C132</id>
+				<title>&quot;This username is taken.&quot; error message is displayed when entering an already registered username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C133</id>
+				<title>&quot;Username must start with a letter, have no spaces, and be 3 - 40 characters.&quot; error message is displayed when entering a username that does not start with a letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C134</id>
+				<title>&quot;Username must start with a letter, have no spaces, and be 3 - 40 characters.&quot; error message is displayed when entering a username shorter than 3 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C135</id>
+				<title>&quot;Username must start with a letter, have no spaces, and be 3 - 40 characters.&quot; error message is displayed when entering a username longer than 40 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C136</id>
+				<title>&quot;Username must start with a letter, have no spaces, and be 3 - 40 characters.&quot; error message is displayed when entering a username containing spaces</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Email” field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C99</id>
+				<title>User can register with an email containing only Latin letters in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C100</id>
+				<title>User can register with an email containing digits in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C101</id>
+				<title>User can register with an email containing a plus sign (+) in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C102</id>
+				<title>User can register with an email containing a hyphen (-) in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C103</id>
+				<title>User can register with an email containing an underscore (_) in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C104</id>
+				<title>User can register with an email containing a dot (.) in the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C105</id>
+				<title>User cannot register with an empty &quot;Email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C106</id>
+				<title>User cannot register with an already taken Email address</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C107</id>
+				<title>User cannot register with an email missing the ( @ ) symbol</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C108</id>
+				<title>User cannot register with an email missing the name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C109</id>
+				<title>User cannot register with an email missing the domain part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C110</id>
+				<title>User cannot register with an email missing the top-level domain</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C111</id>
+				<title>User cannot register with an email missing the dot ( . ) before the top-level domain</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C112</id>
+				<title>User cannot register with an email containing multiple ( @ ) symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C113</id>
+				<title>User cannot register with an email containing spaces inside</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C114</id>
+				<title>User cannot register with an email containing more than one dot in the domain part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C137</id>
+				<title>&quot;This email is taken. Want to log in?&quot; error message is displayed when entering an already registered email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C138</id>
+				<title>&quot;This email does not seem valid.&quot; error message is displayed when entering an email with an invalid format</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Password” field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C115</id>
+				<title>User can register with an 8-character password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C116</id>
+				<title>User can register with a 15-character password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C117</id>
+				<title>User can register with a 30-character password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C118</id>
+				<title>User can register with a password containing at least one uppercase Latin letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C119</id>
+				<title>User can register with a password containing at least one lowercase Latin letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C120</id>
+				<title>User can register with a password containing at least one digit</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C121</id>
+				<title>User can register with a password containing at least one special symbol</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C122</id>
+				<title>User cannot register with an empty &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C123</id>
+				<title>User cannot register with a 7-character password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C124</id>
+				<title>User cannot register with a 31-character password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C125</id>
+				<title>User cannot register with a password missing at least one Upercase letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C126</id>
+				<title>User cannot register with a password missing at least one digit</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C127</id>
+				<title>User cannot register with a password missing at least one special symbol</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C128</id>
+				<title>User cannot register with a password containing non-printing symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C139</id>
+				<title>&quot;Password can’t be blank.&quot; error message is displayed when submitting an empty &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C140</id>
+				<title>&quot;Password should be 8–30 characters long and contain at least one capital letter, one number, and one special character.&quot; error message is displayed when entering a password shorter than 8 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C141</id>
+				<title>&quot;Password should be 8–30 characters long and contain at least one capital letter, one number, and one special character.&quot; error message is displayed when entering a password longer than 30 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C142</id>
+				<title>&quot;Password should be 8–30 characters long and contain at least one capital letter, one number, and one special character.&quot; error message is displayed when entering a password missing an uppercase letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C143</id>
+				<title>&quot;Password should be 8–30 characters long and contain at least one capital letter, one number, and one special character.&quot; error message is displayed when entering a password missing a digit</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C144</id>
+				<title>&quot;Password should be 8–30 characters long and contain at least one capital letter, one number, and one special character.&quot; error message is displayed when entering a password missing a special character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign up] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Confirm password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C129</id>
+				<title>User can register when the data entered in the &quot;Confirm password&quot; field matches the data entered in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C130</id>
+				<title>User cannot register with an empty &quot;Confirm password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C131</id>
+				<title>User cannot register when the entered data in the &quot;Confirm password&quot; field does not match with  the entered data in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>“Have an account?” link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C74</id>
+				<title>User can navigate to the Sign In Page by clicking the &quot;Have an account?&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Finish Registration Page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C79</id>
+				<title>User can enter the 6-digit verification code on the Finish Registration Page to complete account creation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C82</id>
+				<title>User cannot register when entering an incorrect 6-digit verification code on the Finish Registration Page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+								<status>Design</status>
+												<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“User profile” link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow :username:] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Comment text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>User page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User banner</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow :username:]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>My posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Favorite posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Logged in user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;User Profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article information (title and description)</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Read more…” link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>New Article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>New Article Form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Article Title” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“What’s this article about” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Write your article (in markdown)” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Enter Tags” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Publish Article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Settings</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Your Settings” board</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“URL of profile picture” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Username” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Short bio about you” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Email” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“New Password” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Update Settings] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Or click here to logout.] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Users pages</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>My User page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User banner</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Edit Profile Settings” link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>My posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Favorite posts</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User profile link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>User page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User banner</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow :username]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>My posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Favorite posts</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;User profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow :username:] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Favorite Article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Comment text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“User profile” link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>My Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“User profile” link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Edit Article” link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Article Title” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“What’s this article about?’’ field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Write your article (in markdown)” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Enter tags” field</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Attached tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Update Article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“User profile” link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Edit Article” link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Delete Article] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Write a comment…” field</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Post Comment] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Comments text</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“User Profile’’ link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of posting</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Delete Comment” icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
